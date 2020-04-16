@@ -4,6 +4,9 @@
 * Author : 이종섭
 */
 /* main menu */
+.Main-title{
+    color: rgb(235, 235, 155);
+}
 ul {
     background: rgb(49, 49, 49);
     height: 30px;
@@ -14,26 +17,49 @@ ul {
 }
 ul li {
     float: left;
-    margin-right: 10px;
+    width: 10%;
+    text-align: center
 }
 ul li a {
+    width: 100%;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
 }
+
 /* Home Title */
 .home-title {
-color: rgb(235, 235, 155);
-font-size: 20px;
-font-weight: bold;
-margin-right: 50px;
+    color: rgb(235, 235, 155);
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
 }
 /* article background */
 .article-bg {
-background-color: rgb(104, 104, 175);
-color: rgb(255, 255, 255);
-text-align: center;
-height: 300px;
-padding: 15px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(100, 250, 200);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 250px;
+    padding: 1%;
+}
+.article-bg section{
+    float: left;
+    width: 45%;
+    color: rgb(100, 250, 200);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 50%;
+    background: white;
+    border-radius: 20px;
+    padding-top: 3%
+}
+.article-bg section .box-test{
+    float: left;
 }
