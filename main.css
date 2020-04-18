@@ -87,3 +87,8 @@ ul li a {
     background-color: rgb(255, 200, 90);
     padding-bottom: 2%; 
 }
+.bg2 iframe{
+    margin: 10px;
+    border-style: ridge;
+    border-width: 20px;
+}
