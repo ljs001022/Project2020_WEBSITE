@@ -4,21 +4,29 @@
 * Author : 이종섭
 */
 /* main menu */
+body{
+    height: 1000px;
+}
 .Main-title{
-    color: rgb(235, 235, 155);
+    color: rgb(255, 200, 90);
 }
 ul {
-    background: rgb(49, 49, 49);
-    height: 30px;
+    background: rgb(80, 80, 80);
+    height: 50px;
     list-style: none;
     margin: 0px;
-    padding: 15px 10px 8px;
     width: 100%;
 }
 ul li {
+    padding-top: 10px;
+    height: 40px;
     float: left;
     width: 10%;
     text-align: center
+}
+ul li:hover {
+    background: rgb(255, 200, 90);
+    color: rgb(255,255,255);
 }
 ul li a {
     width: 100%;
@@ -27,10 +35,9 @@ ul li a {
     font-weight: bold;
     text-decoration: none;
 }
-
 /* Home Title */
 .home-title {
-    color: rgb(235, 235, 155);
+    color: rgb(255, 200, 90);
     font-size: 20px;
     font-weight: bold;
     margin-right: 20px;
@@ -38,18 +45,21 @@ ul li a {
     text-align: center;
 }
 /* article background */
-.article-bg {
+.article1{    
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 20px;
-    background-color: rgb(100, 250, 200);
-    color: rgb(255, 255, 255);
     text-align: center;
-    height: 250px;
     padding: 1%;
 }
-.article-bg section{
+.bg1 {
+    background-color: rgb(255, 200, 90);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 30%;
+}
+.bg1 section{
     float: left;
     width: 45%;
     color: rgb(100, 250, 200);
@@ -60,6 +70,27 @@ ul li a {
     border-radius: 20px;
     padding-top: 3%
 }
-.article-bg section .box-test{
+.bg1 section .box-test{
     float: left;
+}
+/* 멀티미디어 연습 */
+.img-size1 {
+    width: 32%;
+    border-style: outset;
+    border-color: white;
+}
+.br1{border-top-left-radius: 25%;}
+.br3{border-top-right-radius: 25%;}
+.br7{border-bottom-left-radius: 25%;}
+.br9{border-bottom-right-radius: 25%;}
+.bg2 {
+    height:  auto;
+    padding-bottom: 2%;
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+}
+.bg2 section{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
