@@ -4,9 +4,6 @@
 * Author : 이종섭
 */
 /* main menu */
-body{
-    height: 1000px;
-}
 .Main-title{
     color: rgb(255, 200, 90);
 }
@@ -46,36 +43,35 @@ ul li a {
 }
 /* article background */
 .article1{    
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 20px;
     text-align: center;
     padding: 1%;
+    height: auto;
+    color: rgb(255, 255, 255);
 }
 .bg1 {
     background-color: rgb(255, 200, 90);
     color: rgb(255, 255, 255);
     text-align: center;
-    height: 30%;
-}
-.bg1 section{
-    float: left;
-    width: 45%;
-    color: rgb(100, 250, 200);
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    height: 50%;
-    background: white;
-    border-radius: 20px;
-    padding-top: 3%
+    padding-bottom: 2%;
 }
 .bg1 section .box-test{
+    color: rgb(255, 200, 90);
     float: left;
+    width: 120px;;
+    height: 120px;
+    margin: 0 10px;
+    background: rgb(255,255,255);
+    border-radius: 50%;
+    border-style: double;
+    border-width: 10px;
 }
 /* 멀티미디어 연습 */
 .img-size1 {
-    width: 32%;
+    width: 30%;
     border-style: outset;
     border-color: white;
 }
@@ -84,13 +80,10 @@ ul li a {
 .br7{border-bottom-left-radius: 25%;}
 .br9{border-bottom-right-radius: 25%;}
 .bg2 {
-    height:  auto;
     padding-bottom: 2%;
     background-color: rgb(80, 80, 80);
-    color: rgb(255, 255, 255);
 }
-.bg2 section{
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
+.bg3{
+    background-color: rgb(255, 200, 90);
+    padding-bottom: 2%; 
 }
