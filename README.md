@@ -1,4 +1,8 @@
 # Project2020_WEBSITE
+## 04월 23일 실습내용
+>테이블을 만들고 사용목적에 따라 thead, tbody, tfoot으로 나누기<br>
+>colspan, rowspan을 사용하여 칸 합치기<br>
+>caption을 사용하여 테이블에 이름달기
 ## 04월 18일 실습내용
 >이미지를 삽입하고 편집하기<br>
 >video, audio 태그를 사용하여 mp3, mp4파일 삽입<br>

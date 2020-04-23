@@ -47,6 +47,8 @@ ul li a {
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 20px;
+    border-style: double;
+    border-width: thick;
     text-align: center;
     padding: 1%;
     height: auto;
@@ -87,8 +89,35 @@ ul li a {
     background-color: rgb(255, 200, 90);
     padding-bottom: 2%; 
 }
-.bg2 iframe{
-    margin: 10px;
+.bg3 video{
     border-style: ridge;
-    border-width: 20px;
+    border-width: 10px;
+}
+.bg2 iframe{
+    margin: 5px;
+    border-style: ridge;
+    border-width: 10px;
+    width: 45%
+}
+.cattable{
+    width: 90%;
+    border-style: double;
+    border-color: rgb(255,255,255);
+    border-width: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.cattable td, th{
+    border: 1px solid rgb(255,255,255);    
+}
+.cattable th{
+    width: 25%;
+    height: 50px;
+    padding: 5px;
+}
+.cattable td{
+    width: 25%;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
 }
