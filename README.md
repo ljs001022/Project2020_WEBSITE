@@ -1,4 +1,6 @@
 # Project2020_WEBSITE
+## 04월 28일 실습내용
+>그리드 적용 & 웹 폰트 적용
 ## 04월 23일 실습내용
 >테이블을 만들고 사용목적에 따라 thead, tbody, tfoot으로 나누기<br>
 >colspan, rowspan을 사용하여 칸 합치기<br>
