@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
-    * File Name : index.html v0.8.0
-    * Update : 2020.04.28
+    * File Name : index.html v0.9.0
+    * Update : 2020.05.01
     * Author : 이종섭
 -->
 <html lang="ko">
@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="vendor/normalize.css">
         <!-- 외부 적용 -->
         <link rel="stylesheet" href="main.css">
+        <!-- jQuery -->
+        <script src="js/jquery-3.5.0.min.js"></script>
     </head>
     <body>
         <header>
@@ -65,14 +67,16 @@
         <article class="article1 bg3">
             <h2>04월14일 : audio, video tag 연습</h2>
             <section>
-                <h4>야통이의 시그니처</h4>
-                <audio controls>
-                    <source src="audios/yatongmp3.mp3" type="audio/mpeg">
-                </audio>
-                <h4>새로운 대장 뚱땅이</h4>
-                <video controls width="60%">
-                    <source src="videos/ddoongddang.mp4" type="video/mp4">
-                </video>
+                <div class="audio-video">
+                    <h4>야통이의 시그니처</h4>
+                    <audio controls>
+                        <source src="audios/yatongmp3.mp3" type="audio/mpeg">
+                    </audio>
+                    <h4>새로운 대장 뚱땅이</h4>
+                    <video controls width="100%">
+                        <source src="videos/ddoongddang.mp4" type="video/mp4">
+                    </video>
+                </div>
             </section>
         </article>
         <article class="article1 bg2">
@@ -134,18 +138,27 @@
                 </table>
             </section>
         </article>
-        <article class="article1 grid-container">      
-                <div class="grid-item item1">10월 2일 : css Grid</div>
-                <div class="grid-item item2">2</div>
-                <div class="grid-item item3">3</div>
-                <div class="grid-item">4</div>
-                <div class="grid-item">5</div>
-                <div class="grid-item">6</div>
-                <div class="grid-item">7</div>
-                <div class="grid-item">8</div>
-                <div class="grid-item">9</div>
-                <div class="grid-item item10">10</div>
+        <article class="article1">
+                <h2>10월 2일 : css Grid</h2>
+                <section class="grid-container">
+                    <div class="item"><img src="images/instagram/gif/gilmakstar.JPG"><div class="jb-text"><p>길막</p></div></div>
+                    <div class="item"><img src="images/instagram/gif/yatongstar.JPG"><div class="jb-text"><p>야통</p></div></div>
+                    <div class="item"><img src="images/instagram/gif/yeonnimstar.JPG"></div>
+                    <div class="item"><img src="images/instagram/gif/moostar.JPG"></div>
+                    <div class="item"><img src="images/instagram/gif/raegistar.JPG"></div>
+                    <div class="item"><img src="images/instagram/gif/samsaekstar.JPG"></div>
+                    <div class="item"><img src="images/instagram/gif/Marilynstar.JPG"></div>
+                    <div class="item"><img src="images/instagram/gif/dodostar.JPG"></div>
+                    <div class="item"><img src="images/instagram/gif/binjibstar.JPG"></div>
+                    <div class="item"><img src="images/instagram/gif/binjibsonstar.JPG"></div>
+                    <div class="item"><img src="images/instagram/gif/noraengstar.JPG"></div>
+                    <div class="item"><img src="images/instagram/gif/kasanobastar.JPG"></div>
+                </section>
         </article>
         <footer>풋터에 들어갈 내용</footer>
+        <!--<script>
+            $('.item:nth-child(1)').mouseover(function(){$('.item:nth-child(1) .jb-text').css('display', 'block');});
+            $('.item:nth-child(1)').mouseout(function(){$('.item:nth-child(1) .jb-text').css('display', 'none');});
+        </script>-->
     </body>
 </html>
