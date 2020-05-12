@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-    * File Name : index.html v0.10.0
+    * File Name : index.html v0.12.0
     * Update : 2020.05.12
     * Author : 이종섭
 -->
@@ -20,12 +20,22 @@
             <h1 class="Main-title">이종섭의 홈페이지</h1>
             <nav>
                 <ul class="menu-bar">
-                    <li class="home-title">이종섭</li>
-                    <li><a href="#">메뉴1</a></li>
-                    <li><a href="#">메뉴2</a></li>
-                    <li><a href="#">메뉴3</a></li>
-                    <li><a href="#">메뉴3</a></li>
-                    <li><a href="#">메뉴5</a></li>
+                    <li class="home-title menu">이종섭</li>
+                    <li class="menu">
+                        <a href="#">메뉴</a>
+                        <ul class="sub">
+                            <li><a href="#box">박스모델</a></li>
+                            <li><a href="#image">이미지 태그</a></li>
+                            <li><a href="#av">오디오&비디오 태그</a></li>
+                            <li><a href="#youtube">유튜브 영상</a></li>
+                            <li><a href="#table">테이블</a></li>
+                            <li><a href="#cssgrid">css grid</a></li>
+                        </ul>                        
+                    </li>
+                    <li class="menu"><a href="#">메뉴2</a></li>
+                    <li class="menu"><a href="#">메뉴3</a></li>
+                    <li class="menu"><a href="#">메뉴3</a></li>
+                    <li class="menu"><a href="#">메뉴5</a></li>
                 </ul>
             </nav>        
         </header>
@@ -156,7 +166,7 @@
                     <div class="item"><img src="images/instagram/gif/kasanobastar.JPG"></div>
                 </section>
         </article>
-        <footer>풋터에 들어갈 내용</footer>
+        <footer>copyright ⓒ 2020 by 이종섭</footer>
         <!--<script>
             $('.item:nth-child(1)').mouseover(function(){$('.item:nth-child(1) .jb-text').css('display', 'block');});
             $('.item:nth-child(1)').mouseout(function(){$('.item:nth-child(1) .jb-text').css('display', 'none');});
