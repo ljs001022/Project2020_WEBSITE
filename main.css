@@ -118,7 +118,7 @@ ul li a {
 }
 .article1 h2{    
     font-family: 'Single+Day', bold;
-    color: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
 }
 .bg1 {
 /*    background-color: rgb(255, 200, 90);*/
@@ -155,7 +155,7 @@ ul li a {
     padding-bottom: 2%; 
 }
 .bg3 h4{
-    color: rgb(70,70,70);
+    color: rgb(255,255,255);
 }
 .audio-video{
     width: 70%;
@@ -175,13 +175,13 @@ ul li a {
     background-color: rgba( 255, 255, 255, 0 );
     border-style: none;
     margin-top: 3%;
-    color: rgb(80,80,80);
+    color: rgb(255,255,255);
     font-family: 'Nanum Myeongjo', serif;
     font-size: 25px;
     padding: 3%;
 }
 .more:hover{
-    background-color: rgba( 80, 80, 80, 1);
+    background-color: rgba( 0, 0, 0, 0.75);
     color: rgb(255,255,255);
 }
 .cattable{
@@ -210,7 +210,9 @@ ul li a {
     padding: 10px;
     font-size: 20px;
 }
-
+.cattable caption{
+    color: rgb(255,255,255);
+}
 /*Grid 실습 */
 .grid-container{
 /*    background-color: rgb(255,200,90);*/
