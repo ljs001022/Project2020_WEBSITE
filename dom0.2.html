@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+    * File Name : dom0.2 v0.1.0
+    * Update : 2020.05.28
+    * Author : 이종섭
+-->
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM0.2</title>
+    <script>
+      window.onload = function() {
+        var header = document.getElementById('header');
+        header.style.color = 'white';
+        header.style.background = 'cyan';
+        header.innerHTML = '자바 스크립트 DOM 연습 중';
+      };
+    </script>
+</head>
+<body>
+  <h1 id="header">여기에 아무것도 없어도 문장이 삽입된다.</h1>
+</body>
+</html>
